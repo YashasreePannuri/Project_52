@@ -1,0 +1,110 @@
+body{
+    margin: 0px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family:monospace;
+    font-weight:400;
+    color:rgb(107, 37, 80);
+}
+
+.menu{
+    padding: 15px;
+}
+
+.heading{
+    border:solid;
+    border-color: rgb(0, 0, 0);
+    font-family:unset;
+}
+
+.heading{
+    background-color: #ffb3c6;
+}
+
+.header{
+    border:solid;
+    border-color: rgb(0, 0, 0);
+}
+
+.header{
+    background-color: #b3ffff;
+}
+
+body{
+    background-color: #d9b3ff;
+}
+
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.grid img{
+    border:2px solid darkturquoise;
+    border-radius: 50px;
+}
+
+.grid img{
+    margin-top: 15px;
+}
+
+.origami{
+    border-radius: 20px;
+    background-color: #ffffb3;
+
+    width:310px;
+    font-family: unset;
+}
+
+.origami{
+    margin:50px;
+}
+
+.following{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.following h1{
+    margin-right:1300px;
+}
+
+a:link{
+    color:violet;
+}
+
+a:visited{
+    color: white;
+}
+
+.origami:hover{
+    transform: scale(1,2)
+}
+
+.bodyImg p{
+    font-size: 46px;
+}
+
+.bodyImg img{
+    position:relative;
+}
+
+.bodyImg p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.bodyImg:hover p{
+    opacity: 1;
+}
+
+.bodyImg:hover p{
+    opacity:0.33; 
+}
